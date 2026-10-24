@@ -6,7 +6,7 @@ function SignUp() {
   return (
     <main className={styles.signupPage}>
       <section className={styles.leftSection}>
-        {/* Sign Up form will be added later */}
+        <h1 className={styles.title}>Get Started Now</h1>
       </section>
 
       <section className={styles.rightSection}>
