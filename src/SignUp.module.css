@@ -133,3 +133,75 @@
     display: none;
   }
 }
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background-color: #dedede;
+}
+
+.divider p {
+  margin: 0;
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 9px;
+}
+
+.socialButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.socialButton {
+  flex: 1;
+  min-width: 0;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 5px;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.socialButton img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.socialButton:hover {
+  background-color: #f8f8f8;
+}
+
+.signInText {
+  margin: 20px 0 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 9px;
+  color: #111111;
+}
+
+.signInText a {
+  color: #395c24;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signInText a:hover {
+  text-decoration: underline;
+}
